@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 80%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 10px auto;
+    line-height: 60px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.banner {
+    width: 100%;
+    height: 150px;
+    background-color: #ccc;
+}
+
+.contenido {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.contenido section {
+    width: 30%;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.imagen {
+    width: 100%;
+    height: 80px;
+    background-color: #ccc;
+    margin-top: 10px;
+}
+
+.footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.ubicacion, .redes-sociales {
+    width: 45%;
+}
+
+.iconos span {
+    font-size: 24px;
+    margin-right: 10px;
+}
